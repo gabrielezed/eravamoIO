@@ -5,7 +5,7 @@ __ Eravamo IO, Nicotina Nick, Grimy Joe e Megan Chill. __
 eravamoIO (eravamoInputOutput) è un modulo backend scritto in C che sposta sul livello enterprise un inside joke dei Nivra. 
 La modalità di input permette di salvare un nuovo nome su un database SQLite. 
 La modalità di output permette di generare una frase del tipo "Eravamo IO, NomeX, NomeY e NomeZ" pescando dei nomi casuali dal database SQLite.
-Il caso d'uso è integrarlo a un front-end web per generare i meme e renderli accessibili come fatto su https://nivra.budapest.ovh/eravamo
+Il caso d'uso è integrarlo a un front-end web per generare i meme e renderli accessibili come fatto su [quà ci sarà un link del risultato finale]
 
 Perché in C?
 Perché il C è velocissimo e permette di iterare e generare molto più velocemente di un linguaggio di scripting come Python. 
