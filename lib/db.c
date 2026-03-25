@@ -1,12 +1,13 @@
+#include <stdio.h>
 #include "db.h"
 
 void dbInit(sqlite3* db){
 	char* errMsg = 0;
 	const char* sql = "CREATE TABLE IF NOT EXIST names (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT UNIQUE);";
 	
-	if(sqlite3_exec(db, sql, 0, 0, &err_msg) != SQLITE_OK){
-		fprintf(stderr, "SQL Error: %s\n", err_msg);
-		sqlite3_free(err_msg);
+	if(sqlite3_exec(db, sql, 0, 0, &errMsg) != SQLITE_OK){
+		fprintf(stderr, "SQL Error: %s\n", errMsg);
+		sqlite3_free(errMsg);
 	}
 }
 
