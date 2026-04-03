@@ -4,7 +4,7 @@ LDFLAGS = -lm
 
 TARGET = eravamoIO
 
-SRCS = main.c lib/sqlite3.c lib/db.c
+SRCS = main.c lib/eravamoIO_db.c lib/sqlite3.c
 
 OBJS = $(SRCS:.c=.o)
 
