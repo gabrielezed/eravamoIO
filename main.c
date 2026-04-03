@@ -14,6 +14,8 @@ void generateMeme(StringArray namesList){
 		printf(", %s", namesList.data[i]);
 	}
 	printf(".\n");
+
+
 }
 
 void cleanStringArray(StringArray *a){
