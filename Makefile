@@ -4,7 +4,7 @@ LDFLAGS = -lm -ldl
 
 TARGET = eravamoIO
 
-PROJECT_SRCS = main.c lib/eravamoIO_db.c
+PROJECT_SRCS = main.c eravamoIO_ops.c eravamoIO_CLI.c eravamoIO_types.c
 PROJECT_OBJS = $(PROJECT_SRCS:.c=.o)
 
 SQLITE_SRC = lib/sqlite3.c
