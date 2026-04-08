@@ -1,5 +1,5 @@
-#ifndef ERAVAMOIO_CLI
-#define ERAVAMOIO_CLI
+#ifndef ERAVAMOIO_CLI_H
+#define ERAVAMOIO_CLI_H
 
 #include "lib/sqlite3.h"
 

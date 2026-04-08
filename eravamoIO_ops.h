@@ -1,5 +1,5 @@
-#ifndef ERAVAMOIO_OPS
-#define ERAVAMOIO_OPS
+#ifndef ERAVAMOIO_OPS_H
+#define ERAVAMOIO_OPS_H
 
 #include "lib/sqlite3.h"
 #include "eravamoIO_types.h"

@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
-LDFLAGS = -lm -ldl
+LDFLAGS = -lm -ldl -lmicrohttpd
 
 TARGET = eravamoIO
 
-PROJECT_SRCS = main.c eravamoIO_ops.c eravamoIO_CLI.c eravamoIO_types.c
+PROJECT_SRCS = main.c eravamoIO_ops.c eravamoIO_CLI.c eravamoIO_types.c eravamoIO_net.c
 PROJECT_OBJS = $(PROJECT_SRCS:.c=.o)
 
 SQLITE_SRC = lib/sqlite3.c
